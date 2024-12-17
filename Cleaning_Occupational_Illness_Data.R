@@ -106,5 +106,5 @@ occ_data <- occ_data |>
   )
 
 # Saving the clean data into a csv file
-file_path <- "/Users/sarithakumarik/Documents/DATA6200/FinalProject/Dataset/occupational_illness_data.csv"
+file_path <- "C:\Users\USER\Downloads\DATA_6200_Final_Project"
 write.csv(occ_data, file_path, row.names = FALSE)

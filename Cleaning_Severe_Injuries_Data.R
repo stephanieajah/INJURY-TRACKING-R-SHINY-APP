@@ -185,5 +185,5 @@ injury_data <- injury_data |>
   filter(industry != "Uncategorized")
 
 # Saving the clean data into a csv file
-file_path <- "/Users/sarithakumarik/Documents/DATA6200/FinalProject/Dataset/critical_injuries_data.csv"
+file_path <- "C:\Users\USER\Downloads\DATA_6200_Final_Project"
 write.csv(injury_data, file_path, row.names = FALSE)
